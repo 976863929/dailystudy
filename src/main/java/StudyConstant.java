@@ -1,10 +1,4 @@
 /**
- * @author Aixiwt
- * @date 2022/2/12 16:42
- */
-
-
-/**
  *
  * 常量：在程序运行期间，固定不变的量
  *
@@ -17,6 +11,12 @@
  *     6.空常量：null
  *
  * */
+
+/**
+ * @author Aixiwt
+ * @date 2022/2/12 16:42
+ */
+
 public class StudyConstant {
     public static void main(String[] args) throws Exception {
         //字符串常量
@@ -36,13 +36,11 @@ public class StudyConstant {
         //字符常量
         System.out.println('A');
         System.out.println('中');
-        //错误：System.out.println('');
-        //错误：System.out.println('  ');
 
         //布尔常量
         System.out.println(true);
         System.out.println(false);
 
-        //空常量，无法直接使用sout打印
+        //空常量，无法直接打印
     }
 }
