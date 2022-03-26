@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,7 +9,7 @@ import java.util.Map;
  */
 
 public class countlengthOfLongs {
-    public static int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(@NotNull String s) {
         int n = s.length(), ans = 0;
         Map<Character, Integer> map = new HashMap<>();
         for (int end = 0, start = 0; end < n; end++) {
