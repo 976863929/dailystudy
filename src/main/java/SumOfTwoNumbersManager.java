@@ -37,7 +37,9 @@ public class SumOfTwoNumbersManager {
         return new int[] {};
     }
 
-    //Test
+    /**
+     * 测试
+     */
     public static void main(String[] args){
         int[] firstArr = new int[]{2,7,11,15};
         int target = 9;
